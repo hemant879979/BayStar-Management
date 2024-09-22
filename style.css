@@ -1,0 +1,335 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}	
+body{
+	
+}
+/* this is a header part start */
+header{
+   height:120px;
+   width:100%;
+   position:fixed;
+   background-color:whitesmoke;
+   padding: 0px 150px;
+  
+}   
+header > .container{
+	height:inherit;
+	max-width:1920px;
+	display:flex;
+	margin: 0px  auto;
+	 justify-content:space-between;
+	
+
+}
+header > .container > .first > ul li{
+	font-size:30px;
+	list-style:none;
+    margin:0 6px;
+    cursor: pointer;
+}
+header > .container > .first > ul >li >a{
+	   font-family: Arial, Helvetica, sans-serif;
+	   text-decoration:none;
+	   font-size:18px;
+}
+header > .container > .first > ul{
+	display:flex;
+	margin-top:20px;
+	
+	font-size:20px;
+}
+header > .container > .first >ul >li > .fa-instagram{
+	
+	color: #dd2a7b;
+}
+
+header > .container > .first >ul >li > .fa-facebook{
+	
+	    color: #3B5998;
+}
+header > .container > .first >ul >li > .fa-twitter{
+	
+	    color: #4099FF;
+}
+header > .container > .first >ul >li > .fa-youtube{
+	
+	color: #c4302b;
+}
+header > .container > .first >ul >li > .fa-linkedin{
+	
+	    color: #0e76a8;
+}
+header > .container > .last > img{
+	margin-left:50px;
+}
+
+
+
+header > .container > .last > ul li{
+	font-family: Arial, Helvetica, sans-serif;
+	list-style:none;
+    margin:0px 6px;
+
+}
+header > .container > .last > ul{
+	display:flex;
+	margin-top:20px;
+	
+	font-size:13px;
+	
+	
+}
+header > .container > .last > ul > li > a{
+	text-decoration:none;
+	color:black;
+}
+header > .container > .last > ul > li > .fa-solid{
+	color:darkblue;
+	font-size:18px;
+	
+}
+header > nav > ul{
+	display:flex;
+	list-style:none;
+}
+header > nav > ul >li {
+	margin:25px;
+}
+header > .container > .last > button{
+	padding:13px 24px;
+	background-color:darkblue;
+	color:white;
+	border-radius:5px;
+	margin-top:26px;
+	text-align:right;
+	font-size:15px;
+	cursor: pointer;
+	transition: all 1s;
+	margin-left: 209px;
+}
+header > .container > .last > button:hover{
+	background-color: rgb(62, 185, 82);
+	color: black;
+}
+/* header part end */
+
+
+/*   section1 ka part1 started   */
+main{
+	min-height: 300px;
+	max-width: 1920px;
+	margin: 0px auto;
+}
+main > .fir{
+	width:100%;
+	height:880px;
+	background-image:url(back.jpg);
+	
+	padding:200px 0;
+}
+main > .fir > .sec1 {
+	height:250px;
+	width:1000px;
+	background-color:rgba(47,28,58,0.6);
+	margin: 220px auto ;
+	box-shadow:18px 28px 5px rgba(47,28,58,0.7);
+	
+}
+main > .fir > .sec1 > h2 {
+	font-size: 80px;
+	margin-left: 150px;
+	color: aliceblue;
+}
+
+main > .fir > .sec1 > a{
+	text-decoration: none;
+	padding:10px 35px;
+	font-size: 35px;
+	background-color:darkblue;
+	color:white;
+	border-radius: 50px;
+	transition: all 1s;
+   margin-left: 390px;
+}
+main > .fir > .sec1 > a:hover{
+	background-color: rgb(135, 178, 137);
+	color: darkblue;
+}
+/*   section1 ka part1 end   */
+
+
+/*   section2 ka part2 started   */
+
+main > .sec2{
+	margin: 0px auto;
+     height: 600px;
+	 max-width:1920px;
+	justify-content: space-between;
+}
+main > .sec2 > p{
+	margin-top: 150px;
+	margin-left: 150px;
+	font-size: 50px;
+}
+main > .sec2 >p >span{
+	color: #c4302b;
+}
+main > .sec2 > .img1{
+	height:320px;
+	width: 320px;
+	border: 1px solid black;
+}
+main > .sec2 > .img1 >img{
+	width: inherit;
+	height: 200px;
+	width: 400px;
+	border-radius: 35px;
+}
+
+main > .sec2 > .sec {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 150px;
+}
+main > .sec2 > .sec > .img1{
+	height: 300px;
+	width: 270px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px 20px;
+}
+main > .sec2 >  .sec .img1 > a{
+	text-decoration: none;
+	padding: 10px 18px;
+	background-color: darkblue;
+	color: aliceblue;
+	justify-content: center;
+	margin-left: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+	box-shadow: 0px 5px 8px darkblue;
+}
+
+	/* section 2 part end*/
+	   
+
+	/* section 3 part - started */
+
+	main > .sec3{
+		height: 750px;
+		max-width: 1920px;
+		margin: 0px auto;
+		background-image:linear-gradient(aliceblue 50% , darkblue 50%);
+	}
+	 
+	main > .sec3 > .m3{
+		
+		display: flex;
+		justify-content: space-evenly;
+	}
+	main > .sec3 > p{
+		font-size: 50px;
+	}
+	main > .sec3 > p > span{
+		color: #c4302b;
+		margin-left: 150px;
+	}
+	main > .sec3 > .m3 >.img2{
+		height: 380px;
+		width: 320px;
+		
+		background-color: white;
+		
+	}
+	main > .sec3 > .m3 >.img2 > a{
+		padding:15px 25px;
+		background-color: darkblue;
+		color: aliceblue;
+		text-align: center;
+		text-decoration: none;
+		font-size: 20px;
+		margin-left: 80px;
+		box-shadow: 3px 5px 2px darkblue;
+		margin-top: -20px;
+	}
+	main > .sec3 > .m3 >.img2 > p{
+		font-family: "Arial",sans-serif;
+		font-weight: 500;
+		margin-top: 30px;
+		font-size: 20px;
+		padding:10px 20px;
+	}
+	main > .sec3 > .m3 >.img2 > p:hover{
+	
+	}
+	
+	
+	/*footer part start  */
+	
+	
+	/* footer tag css */
+	  
+
+	footer{
+		height:200px;
+		max-width: 1920px;
+		background-color: white;
+		text-align: center;
+		margin: 100px auto;
+	}
+	footer> h2{
+		color: #364584;
+		font-weight: 800;
+		font-family: "Arianav.navigation-top .boxl",sans-serif;
+		padding: 30px 0;
+	}
+	footer > .as{
+		display: flex;
+		font-size: 25px;
+		margin-top: 50px;
+		justify-content: center;
+	}
+	footer > .as li{
+		padding: 7px;
+		list-style: none;
+		font-size: 28px;
+	}
+footer >ul >li > .fa-instagram{
+	
+		color: #dd2a7b;
+	}
+	
+	footer >ul >li > .fa-facebook{
+		
+			color: #3B5998;
+	}
+	footer >ul >li > .fa-twitter{
+		
+			color: #4099FF;
+	}
+	footer >ul >li > .fa-youtube{
+		
+		color: #c4302b;
+	}
+	footer >ul >li > .fa-linkedin{
+		
+			color: #0e76a8;
+	}
+	footer > ul{
+		display: flex;
+		color: darkblue;
+		list-style: none;
+		text-align: center;
+		justify-content: center;
+	}
+	footer > ul .dd{
+		padding: 15px;
+		font-size: 18px;
+		font-weight: 500px;
+		font-family: "Arianav.navigation-top .boxl",sans-serif;
+	
+	}
+	
